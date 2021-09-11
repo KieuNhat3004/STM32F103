@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"read_adc_example_1\startup_stm32f103xb.o"
+"read_adc_example_1\main.o"
+"read_adc_example_1\stm32f1xx_it.o"
+"read_adc_example_1\stm32f1xx_hal_msp.o"
+"read_adc_example_1\stm32f1xx_hal_gpio_ex.o"
+"read_adc_example_1\stm32f1xx_hal_adc.o"
+"read_adc_example_1\stm32f1xx_hal_adc_ex.o"
+"read_adc_example_1\stm32f1xx_hal.o"
+"read_adc_example_1\stm32f1xx_hal_rcc.o"
+"read_adc_example_1\stm32f1xx_hal_rcc_ex.o"
+"read_adc_example_1\stm32f1xx_hal_gpio.o"
+"read_adc_example_1\stm32f1xx_hal_dma.o"
+"read_adc_example_1\stm32f1xx_hal_cortex.o"
+"read_adc_example_1\stm32f1xx_hal_pwr.o"
+"read_adc_example_1\stm32f1xx_hal_flash.o"
+"read_adc_example_1\stm32f1xx_hal_flash_ex.o"
+"read_adc_example_1\stm32f1xx_hal_exti.o"
+"read_adc_example_1\stm32f1xx_hal_tim.o"
+"read_adc_example_1\stm32f1xx_hal_tim_ex.o"
+"read_adc_example_1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "read_ADC_example_1\read_ADC_example_1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "read_ADC_example_1.map" -o read_ADC_example_1\read_ADC_example_1.axf

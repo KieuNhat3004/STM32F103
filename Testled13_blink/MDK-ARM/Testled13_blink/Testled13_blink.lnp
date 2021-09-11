@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"testled13_blink\startup_stm32f103xb.o"
+"testled13_blink\main.o"
+"testled13_blink\stm32f1xx_it.o"
+"testled13_blink\stm32f1xx_hal_msp.o"
+"testled13_blink\stm32f1xx_hal_gpio_ex.o"
+"testled13_blink\stm32f1xx_hal_tim.o"
+"testled13_blink\stm32f1xx_hal_tim_ex.o"
+"testled13_blink\stm32f1xx_hal.o"
+"testled13_blink\stm32f1xx_hal_rcc.o"
+"testled13_blink\stm32f1xx_hal_rcc_ex.o"
+"testled13_blink\stm32f1xx_hal_gpio.o"
+"testled13_blink\stm32f1xx_hal_dma.o"
+"testled13_blink\stm32f1xx_hal_cortex.o"
+"testled13_blink\stm32f1xx_hal_pwr.o"
+"testled13_blink\stm32f1xx_hal_flash.o"
+"testled13_blink\stm32f1xx_hal_flash_ex.o"
+"testled13_blink\stm32f1xx_hal_exti.o"
+"testled13_blink\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Testled13_blink\Testled13_blink.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Testled13_blink.map" -o Testled13_blink\Testled13_blink.axf
